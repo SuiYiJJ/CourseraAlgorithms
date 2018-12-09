@@ -1,6 +1,10 @@
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
+/**
+ * @author DateBro
+ */
+
 public class Deque<Item> implements Iterable<Item> {
 
     private final Node first;
@@ -126,5 +130,17 @@ public class Deque<Item> implements Iterable<Item> {
         Item item;
         Node next;
         Node pre;
+    }
+
+    public static void main(String[] args) {
+        Deque<Integer> deque = new Deque<Integer>();
+        deque.addFirst(1);
+        deque.removeLast();
+        deque.isEmpty();
+        deque.isEmpty();
+        deque.addFirst(5);
+        deque.addFirst(6);
+        deque.addFirst(7);
+        deque.removeLast();
     }
 }

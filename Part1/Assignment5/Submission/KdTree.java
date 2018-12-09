@@ -3,6 +3,10 @@ import edu.princeton.cs.algs4.RectHV;
 import edu.princeton.cs.algs4.SET;
 import edu.princeton.cs.algs4.StdDraw;
 
+/**
+ * @author DateBro
+ */
+
 public class KdTree {
 
     private Node root;
@@ -83,6 +87,7 @@ public class KdTree {
         return node;
     }
 
+    // store the min and max x-coordinate and y-coordinate to avoid the rectangle intersect with the previous node's rect
     private void storeXY(Node root, Node node, boolean nodeLB,boolean rootVertical) {
         if (node == null) return;
 

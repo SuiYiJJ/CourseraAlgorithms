@@ -2,6 +2,10 @@ import edu.princeton.cs.algs4.StdRandom;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
+/**
+ * @author DateBro
+ */
+
 public class RandomizedQueue<Item> implements Iterable<Item> {
 
     private Item[] queue;

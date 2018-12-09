@@ -2,6 +2,10 @@ import edu.princeton.cs.algs4.Point2D;
 import edu.princeton.cs.algs4.RectHV;
 import edu.princeton.cs.algs4.SET;
 
+/**
+ * @author DateBro
+ */
+
 public class PointSET {
 
     private SET<Point2D> pointSET;

@@ -1,6 +1,10 @@
 import edu.princeton.cs.algs4.StdRandom;
 import edu.princeton.cs.algs4.WeightedQuickUnionUF;
 
+/**
+ * @author DateBro
+ */
+
 public class Percolation {
 
     private int[][] grid;
@@ -124,12 +128,6 @@ public class Percolation {
 
     // test client (optional)
     public static void main(String[] args) {
-//        Percolation test = new Percolation(2);
-//        test.open(1, 1);
-//        test.open(2, 1);
-//        System.out.println(test.percolates());
-//        System.out.println(test.grid1D.connected(0, 2));
-
         Percolation test = new Percolation(20);
         while (!test.percolates()) {
             int row = StdRandom.uniform(1, 21);

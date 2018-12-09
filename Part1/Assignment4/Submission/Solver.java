@@ -3,6 +3,11 @@ import edu.princeton.cs.algs4.MinPQ;
 import edu.princeton.cs.algs4.Stack;
 import edu.princeton.cs.algs4.StdOut;
 
+/**
+ * @author DateBro
+ * 这个 assignment 有参考过 GitHub 上的代码，当时没想到自己实现合适的数据结构太傻了...
+ */
+
 public class Solver {
 
     private MinPQ<Node> pq;

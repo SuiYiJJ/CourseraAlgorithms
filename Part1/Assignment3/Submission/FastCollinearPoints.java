@@ -4,6 +4,10 @@ import edu.princeton.cs.algs4.StdOut;
 import java.util.Arrays;
 import java.util.Stack;
 
+/**
+ * @author DateBro
+ */
+
 public class FastCollinearPoints {
 
     private int lineSegmentNum = 0;

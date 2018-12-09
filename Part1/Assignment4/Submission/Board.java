@@ -1,5 +1,9 @@
 import edu.princeton.cs.algs4.Queue;
 
+/**
+ * @author DateBro
+ */
+
 public class Board {
 
     private int[][] board;
